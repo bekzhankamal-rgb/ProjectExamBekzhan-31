@@ -1,0 +1,4 @@
+user,plan,amount,paid
+Aliya,Basic,5000,True
+Erlan,Pro,15000,False
+Dana,Basic,5000,False

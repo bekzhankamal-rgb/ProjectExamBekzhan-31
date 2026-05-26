@@ -9,7 +9,7 @@ class Bootstrapper_11:
         if self.df.empty:
             raise ValueError("Деректер бос!")
 
-    def run(self, B=1000):
+    def run(self, B=500):
         means = [
             self.df.sample(len(self.df), replace=True).mean()
             for _ in range(B)

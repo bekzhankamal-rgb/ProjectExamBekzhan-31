@@ -5,7 +5,7 @@ import os
 
 class Bootstrapper_12:
 
-    def __init__(self, file=None, B=1000):
+    def __init__(self, file=None, B=500):
 
         self.B = B
 
